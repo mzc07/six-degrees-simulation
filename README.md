@@ -26,7 +26,7 @@ Para este proyecto, se utilizaron las siguientes librerías:
 
 Este diagrama explica el flujo del programa diviendo la ejecución en diferentes módulos que en conjunto permiten la simulación, visualización y comprobación del programa.
 
-![Diagrama de flujo](/diagrama de flujo/graph.svg)
+![Diagrama de flujo](https://github.com/mzc07/six-degrees-simulation/blob/main/diagrama%20de%20flujo/graph.svg)
 
 ## Autores
 
