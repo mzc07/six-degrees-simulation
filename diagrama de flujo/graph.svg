@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2098pt" height="2368pt" viewBox="0.00 0.00 2098.40 2367.52">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(43.2 2324.3155)">
+<title>SixDegreesSimulation</title>
+<polygon fill="#f9fafb" stroke="transparent" points="-43.2,43.2 -43.2,-2324.3155 2055.2,-2324.3155 2055.2,43.2 -43.2,43.2"/>
+<text text-anchor="middle" x="1006" y="-2263.6155" font-family="Helvetica Neue" font-size="15.00" fill="#000000">Simulación Seis Grados de Separación — Modelo Watts-Strogatz (1998)</text>
+<text text-anchor="middle" x="1006" y="-2227.6155" font-family="Helvetica Neue" font-size="15.00" fill="#000000">Flujo completo: main.py → simulation.py → graph_builder.py / metrics.py → visualization.py</text>
+<g id="clust1" class="cluster">
+<title>cluster_main</title>
+<path fill="#dbeafe" stroke="#1e40af" d="M83,-1877.9077C83,-1877.9077 311,-1877.9077 311,-1877.9077 317,-1877.9077 323,-1883.9077 323,-1889.9077 323,-1889.9077 323,-2199.1155 323,-2199.1155 323,-2205.1155 317,-2211.1155 311,-2211.1155 311,-2211.1155 83,-2211.1155 83,-2211.1155 77,-2211.1155 71,-2205.1155 71,-2199.1155 71,-2199.1155 71,-1889.9077 71,-1889.9077 71,-1883.9077 77,-1877.9077 83,-1877.9077"/>
+<text text-anchor="middle" x="197" y="-2196.3155" font-family="Helvetica Neue Bold" font-size="12.00" fill="#1e3a8a">main.py  —  Punto de entrada</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_sim</title>
+<path fill="#ede9fe" stroke="#7c3aed" d="M20,-1089.9077C20,-1089.9077 573,-1089.9077 573,-1089.9077 579,-1089.9077 585,-1095.9077 585,-1101.9077 585,-1101.9077 585,-1826.9077 585,-1826.9077 585,-1832.9077 579,-1838.9077 573,-1838.9077 573,-1838.9077 20,-1838.9077 20,-1838.9077 14,-1838.9077 8,-1832.9077 8,-1826.9077 8,-1826.9077 8,-1101.9077 8,-1101.9077 8,-1095.9077 14,-1089.9077 20,-1089.9077"/>
+<text text-anchor="middle" x="296.5" y="-1824.1077" font-family="Helvetica Neue Bold" font-size="12.00" fill="#4c1d95">simulation.py  —  Orquestador del experimento</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_graph</title>
+<path fill="#fef3c7" stroke="#d97706" d="M96,-8C96,-8 454,-8 454,-8 460,-8 466,-14 466,-20 466,-20 466,-986.9077 466,-986.9077 466,-992.9077 460,-998.9077 454,-998.9077 454,-998.9077 96,-998.9077 96,-998.9077 90,-998.9077 84,-992.9077 84,-986.9077 84,-986.9077 84,-20 84,-20 84,-14 90,-8 96,-8"/>
+<text text-anchor="middle" x="275" y="-984.1077" font-family="Helvetica Neue Bold" font-size="12.00" fill="#78350f">graph_builder.py  —  Constructor de redes</text>
+</g>
+<g id="clust4" class="cluster">
+<title>cluster_metrics</title>
+<path fill="#d1fae5" stroke="#059669" d="M605,-849.5077C605,-849.5077 1580,-849.5077 1580,-849.5077 1586,-849.5077 1592,-855.5077 1592,-861.5077 1592,-861.5077 1592,-1294.5077 1592,-1294.5077 1592,-1300.5077 1586,-1306.5077 1580,-1306.5077 1580,-1306.5077 605,-1306.5077 605,-1306.5077 599,-1306.5077 593,-1300.5077 593,-1294.5077 593,-1294.5077 593,-861.5077 593,-861.5077 593,-855.5077 599,-849.5077 605,-849.5077"/>
+<text text-anchor="middle" x="1092.5" y="-1291.7077" font-family="Helvetica Neue Bold" font-size="12.00" fill="#064e3b">metrics.py  —  Cálculo y normalización de métricas</text>
+</g>
+<g id="clust5" class="cluster">
+<title>cluster_output</title>
+<path fill="#cffafe" stroke="#0891b2" d="M630,-747.1077C630,-747.1077 1086,-747.1077 1086,-747.1077 1092,-747.1077 1098,-753.1077 1098,-759.1077 1098,-759.1077 1098,-809.5077 1098,-809.5077 1098,-815.5077 1092,-821.5077 1086,-821.5077 1086,-821.5077 630,-821.5077 630,-821.5077 624,-821.5077 618,-815.5077 618,-809.5077 618,-809.5077 618,-759.1077 618,-759.1077 618,-753.1077 624,-747.1077 630,-747.1077"/>
+<text text-anchor="middle" x="858" y="-806.7077" font-family="Helvetica Neue Bold" font-size="12.00" fill="#164e63">main.py  —  Salidas del experimento</text>
+</g>
+<g id="clust6" class="cluster">
+<title>cluster_viz</title>
+<path fill="#fce7f3" stroke="#db2777" d="M660,-580.3077C660,-580.3077 1992,-580.3077 1992,-580.3077 1998,-580.3077 2004,-586.3077 2004,-592.3077 2004,-592.3077 2004,-707.1077 2004,-707.1077 2004,-713.1077 1998,-719.1077 1992,-719.1077 1992,-719.1077 660,-719.1077 660,-719.1077 654,-719.1077 648,-713.1077 648,-707.1077 648,-707.1077 648,-592.3077 648,-592.3077 648,-586.3077 654,-580.3077 660,-580.3077"/>
+<text text-anchor="middle" x="1326" y="-704.3077" font-family="Helvetica Neue Bold" font-size="12.00" fill="#831843">visualization.py  —  Generación de figuras</text>
+</g>
+<!-- START -->
+<g id="node1" class="node">
+<title>START</title>
+<ellipse fill="#1e40af" stroke="#000000" stroke-width="1.5" cx="197" cy="-2144.5116" rx="94.5538" ry="36.4089"/>
+<text text-anchor="middle" x="197" y="-2155.3116" font-family="Helvetica Neue" font-size="12.00" fill="#ffffff">▶  INICIO</text>
+<text text-anchor="middle" x="197" y="-2140.9116" font-family="Helvetica Neue" font-size="12.00" fill="#ffffff">Usuario ejecuta:</text>
+<text text-anchor="middle" x="197" y="-2126.5116" font-family="Helvetica Neue" font-size="12.00" fill="#ffffff">uv run python main.py</text>
+</g>
+<!-- PARAMS -->
+<g id="node2" class="node">
+<title>PARAMS</title>
+<path fill="#eff6ff" stroke="#3b82f6" stroke-width="1.5" d="M303.0968,-1986.5085C303.0968,-1986.5085 90.9032,-1986.5085 90.9032,-1986.5085 84.9032,-1986.5085 78.9032,-1980.5085 78.9032,-1974.5085 78.9032,-1974.5085 78.9032,-1897.7069 78.9032,-1897.7069 78.9032,-1891.7069 84.9032,-1885.7069 90.9032,-1885.7069 90.9032,-1885.7069 303.0968,-1885.7069 303.0968,-1885.7069 309.0968,-1885.7069 315.0968,-1891.7069 315.0968,-1897.7069 315.0968,-1897.7069 315.0968,-1974.5085 315.0968,-1974.5085 315.0968,-1980.5085 309.0968,-1986.5085 303.0968,-1986.5085"/>
+<text text-anchor="middle" x="197" y="-1972.4077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">Definir parámetros globales</text>
+<text text-anchor="middle" x="197" y="-1959.2077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">────────────────────────</text>
+<text text-anchor="middle" x="197" y="-1946.0077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">N = 1 000  (nodos)</text>
+<text text-anchor="middle" x="197" y="-1932.8077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">K = 10     (vecinos por nodo)</text>
+<text text-anchor="middle" x="197" y="-1919.6077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">N_ITER = 10  (iteraciones/p)</text>
+<text text-anchor="middle" x="197" y="-1906.4077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">P_VALUES = [0, 0.0001, … 1.0]</text>
+<text text-anchor="middle" x="197" y="-1893.2077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">(11 valores de probabilidad p)</text>
+</g>
+<!-- START&#45;&gt;PARAMS -->
+<g id="edge1" class="edge">
+<title>START-&gt;PARAMS</title>
+<path fill="none" stroke="#374151" stroke-width="1.4" d="M197,-2108.2104C197,-2108.2104 197,-1996.4319 197,-1996.4319"/>
+<polygon fill="#374151" stroke="#374151" stroke-width="1.4" points="200.5001,-1996.4319 197,-1986.4319 193.5001,-1996.432 200.5001,-1996.4319"/>
+<text text-anchor="middle" x="215.886" y="-2044.3077" font-family="Helvetica Neue" font-size="10.00" fill="#000000">inicializa</text>
+</g>
+<!-- RUN_EXP -->
+<g id="node3" class="node">
+<title>RUN_EXP</title>
+<path fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.5" d="M303.0968,-1808.3094C303.0968,-1808.3094 90.9032,-1808.3094 90.9032,-1808.3094 84.9032,-1808.3094 78.9032,-1802.3094 78.9032,-1796.3094 78.9032,-1796.3094 78.9032,-1773.1061 78.9032,-1773.1061 78.9032,-1767.1061 84.9032,-1761.1061 90.9032,-1761.1061 90.9032,-1761.1061 303.0968,-1761.1061 303.0968,-1761.1061 309.0968,-1761.1061 315.0968,-1767.1061 315.0968,-1773.1061 315.0968,-1773.1061 315.0968,-1796.3094 315.0968,-1796.3094 315.0968,-1802.3094 309.0968,-1808.3094 303.0968,-1808.3094"/>
+<text text-anchor="middle" x="197" y="-1794.6077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">run_experiment(n, k, p_values, n_iter)</text>
+<text text-anchor="middle" x="197" y="-1781.4077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">────────────────────────</text>
+<text text-anchor="middle" x="197" y="-1768.2077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">Barre cada valor de p en P_VALUES</text>
+</g>
+<!-- PARAMS&#45;&gt;RUN_EXP -->
+<g id="edge2" class="edge">
+<title>PARAMS-&gt;RUN_EXP</title>
+<path fill="none" stroke="#374151" stroke-width="1.4" d="M197,-1885.6937C197,-1885.6937 197,-1818.627 197,-1818.627"/>
+<polygon fill="#374151" stroke="#374151" stroke-width="1.4" points="200.5001,-1818.627 197,-1808.627 193.5001,-1818.6271 200.5001,-1818.627"/>
+<text text-anchor="middle" x="248.3895" y="-1849.9077" font-family="Helvetica Neue" font-size="10.00" fill="#000000">llama run_experiment()</text>
+</g>
+<!-- LOOP_P -->
+<g id="node4" class="node">
+<title>LOOP_P</title>
+<path fill="#ddd6fe" stroke="#6d28d9" stroke-width="1.5" d="M185.8147,-1634.4618C185.8147,-1634.4618 119.9113,-1608.854 119.9113,-1608.854 114.3186,-1606.6808 114.3186,-1602.3346 119.9113,-1600.1615 119.9113,-1600.1615 185.8147,-1574.5537 185.8147,-1574.5537 191.4074,-1572.3806 202.5926,-1572.3806 208.1853,-1574.5537 208.1853,-1574.5537 274.0887,-1600.1615 274.0887,-1600.1615 279.6814,-1602.3346 279.6814,-1606.6808 274.0887,-1608.854 274.0887,-1608.854 208.1853,-1634.4618 208.1853,-1634.4618 202.5926,-1636.6349 191.4074,-1636.6349 185.8147,-1634.4618"/>
+<text text-anchor="middle" x="197" y="-1607.8077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">Para cada p</text>
+<text text-anchor="middle" x="197" y="-1594.6077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">en P_VALUES</text>
+</g>
+<!-- RUN_EXP&#45;&gt;LOOP_P -->
+<g id="edge3" class="edge">
+<title>RUN_EXP-&gt;LOOP_P</title>
+<path fill="none" stroke="#374151" stroke-width="1.4" d="M197,-1760.7786C197,-1760.7786 197,-1649.0372 197,-1649.0372"/>
+<polygon fill="#374151" stroke="#374151" stroke-width="1.4" points="200.5001,-1649.0372 197,-1639.0372 193.5001,-1649.0373 200.5001,-1649.0372"/>
+<text text-anchor="middle" x="228.119" y="-1696.9077" font-family="Helvetica Neue" font-size="10.00" fill="#000000">itera p_values</text>
+</g>
+<!-- LOOP_ITER -->
+<g id="node5" class="node">
+<title>LOOP_ITER</title>
+<path fill="#ddd6fe" stroke="#6d28d9" stroke-width="1.5" d="M185.5062,-1426.1594C185.5062,-1426.1594 94.1773,-1398.7564 94.1773,-1398.7564 88.4304,-1397.0321 88.4304,-1393.5834 94.1773,-1391.8591 94.1773,-1391.8591 185.5062,-1364.4561 185.5062,-1364.4561 191.2531,-1362.7318 202.7469,-1362.7318 208.4938,-1364.4561 208.4938,-1364.4561 299.8227,-1391.8591 299.8227,-1391.8591 305.5696,-1393.5834 305.5696,-1397.0321 299.8227,-1398.7564 299.8227,-1398.7564 208.4938,-1426.1594 208.4938,-1426.1594 202.7469,-1427.8837 191.2531,-1427.8837 185.5062,-1426.1594"/>
+<text text-anchor="middle" x="197" y="-1398.6077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">Para cada iteración</text>
+<text text-anchor="middle" x="197" y="-1385.4077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">it = 0 … N_ITER-1</text>
+</g>
+<!-- LOOP_P&#45;&gt;LOOP_ITER -->
+<g id="edge4" class="edge">
+<title>LOOP_P-&gt;LOOP_ITER</title>
+<path fill="none" stroke="#374151" stroke-width="1.4" d="M226.379,-1581.3204C226.379,-1581.3204 226.379,-1430.8796 226.379,-1430.8796"/>
+<polygon fill="#374151" stroke="#374151" stroke-width="1.4" points="229.8791,-1430.8796 226.379,-1420.8796 222.8791,-1430.8797 229.8791,-1430.8796"/>
+<text text-anchor="middle" x="221.175" y="-1506.1077" font-family="Helvetica Neue" font-size="10.00" fill="#000000">siguiente p</text>
+</g>
+<!-- RAW_RESULTS -->
+<g id="node9" class="node">
+<title>RAW_RESULTS</title>
+<path fill="#ddd6fe" stroke="#5b21b6" stroke-width="1.5" d="M532.848,-1429.3449C532.848,-1433.5185 501.9892,-1436.9087 464,-1436.9087 426.0108,-1436.9087 395.152,-1433.5185 395.152,-1429.3449 395.152,-1429.3449 395.152,-1361.2706 395.152,-1361.2706 395.152,-1357.097 426.0108,-1353.7068 464,-1353.7068 501.9892,-1353.7068 532.848,-1357.097 532.848,-1361.2706 532.848,-1361.2706 532.848,-1429.3449 532.848,-1429.3449"/>
+<path fill="none" stroke="#5b21b6" stroke-width="1.5" d="M532.848,-1429.3449C532.848,-1425.1713 501.9892,-1421.7811 464,-1421.7811 426.0108,-1421.7811 395.152,-1425.1713 395.152,-1429.3449"/>
+<text text-anchor="middle" x="464" y="-1411.8077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">raw_results</text>
+<text text-anchor="middle" x="464" y="-1398.6077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">Lista de dicts</text>
+<text text-anchor="middle" x="464" y="-1385.4077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">[{p, iter, L, C}, …]</text>
+<text text-anchor="middle" x="464" y="-1372.2077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">(11 × 10 = 110 entradas)</text>
+</g>
+<!-- LOOP_P&#45;&gt;RAW_RESULTS -->
+<g id="edge18" class="edge">
+<title>LOOP_P-&gt;RAW_RESULTS</title>
+<path fill="none" stroke="#374151" stroke-width="1.4" d="M209.4142,-1575C253.5641,-1575 400.3479,-1575 400.3479,-1575 400.3479,-1575 400.3479,-1444.2983 400.3479,-1444.2983"/>
+<polygon fill="#374151" stroke="#374151" stroke-width="1.4" points="403.848,-1444.2982 400.3479,-1434.2983 396.848,-1444.2983 403.848,-1444.2982"/>
+<text text-anchor="middle" x="374.176" y="-1506.1077" font-family="Helvetica Neue" font-size="10.00" fill="#000000">experimento completo</text>
+</g>
+<!-- LOOP_ITER&#45;&gt;LOOP_P -->
+<g id="edge17" class="edge">
+<title>LOOP_ITER-&gt;LOOP_P</title>
+<path fill="none" stroke="#7c3aed" stroke-width="1.4" stroke-dasharray="5,2" d="M167.621,-1420.9598C167.621,-1420.9598 167.621,-1571.5338 167.621,-1571.5338"/>
+<polygon fill="#7c3aed" stroke="#7c3aed" stroke-width="1.4" points="164.1211,-1571.5337 167.621,-1581.5338 171.1211,-1571.5338 164.1211,-1571.5337"/>
+<text text-anchor="middle" x="86.269" y="-1506.1077" font-family="Helvetica Neue" font-size="10.00" fill="#000000">¿más p?  sí</text>
+</g>
+<!-- GEN_SEED -->
+<g id="node6" class="node">
+<title>GEN_SEED</title>
+<path fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.5" d="M255.3437,-1133.9077C255.3437,-1133.9077 140.6563,-1133.9077 140.6563,-1133.9077 134.6563,-1133.9077 128.6563,-1127.9077 128.6563,-1121.9077 128.6563,-1121.9077 128.6563,-1109.9077 128.6563,-1109.9077 128.6563,-1103.9077 134.6563,-1097.9077 140.6563,-1097.9077 140.6563,-1097.9077 255.3437,-1097.9077 255.3437,-1097.9077 261.3437,-1097.9077 267.3437,-1103.9077 267.3437,-1109.9077 267.3437,-1109.9077 267.3437,-1121.9077 267.3437,-1121.9077 267.3437,-1127.9077 261.3437,-1133.9077 255.3437,-1133.9077"/>
+<text text-anchor="middle" x="198" y="-1119.2077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">Generar semilla aleatoria</text>
+<text text-anchor="middle" x="198" y="-1106.0077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">seed = randint(0, 2³¹)</text>
+</g>
+<!-- LOOP_ITER&#45;&gt;GEN_SEED -->
+<g id="edge5" class="edge">
+<title>LOOP_ITER-&gt;GEN_SEED</title>
+<path fill="none" stroke="#374151" stroke-width="1.4" d="M198,-1361.0478C198,-1361.0478 198,-1144.1053 198,-1144.1053"/>
+<polygon fill="#374151" stroke="#374151" stroke-width="1.4" points="201.5001,-1144.1052 198,-1134.1053 194.5001,-1144.1053 201.5001,-1144.1052"/>
+<text text-anchor="middle" x="226.3385" y="-1229.5077" font-family="Helvetica Neue" font-size="10.00" fill="#000000">siguiente iter</text>
+</g>
+<!-- BUILD_SW -->
+<g id="node10" class="node">
+<title>BUILD_SW</title>
+<path fill="#fffbeb" stroke="#d97706" stroke-width="1.5" d="M355.0968,-968.3094C355.0968,-968.3094 142.9032,-968.3094 142.9032,-968.3094 136.9032,-968.3094 130.9032,-962.3094 130.9032,-956.3094 130.9032,-956.3094 130.9032,-933.1061 130.9032,-933.1061 130.9032,-927.1061 136.9032,-921.1061 142.9032,-921.1061 142.9032,-921.1061 355.0968,-921.1061 355.0968,-921.1061 361.0968,-921.1061 367.0968,-927.1061 367.0968,-933.1061 367.0968,-933.1061 367.0968,-956.3094 367.0968,-956.3094 367.0968,-962.3094 361.0968,-968.3094 355.0968,-968.3094"/>
+<text text-anchor="middle" x="249" y="-954.6077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">build_small_world(n, k, p, seed)</text>
+<text text-anchor="middle" x="249" y="-941.4077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">────────────────────────</text>
+<text text-anchor="middle" x="249" y="-928.2077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">nx.watts_strogatz_graph(n, k, p, seed)</text>
+</g>
+<!-- GEN_SEED&#45;&gt;BUILD_SW -->
+<g id="edge6" class="edge">
+<title>GEN_SEED-&gt;BUILD_SW</title>
+<path fill="none" stroke="#374151" stroke-width="1.4" d="M199.1867,-1097.5863C199.1867,-1097.5863 199.1867,-978.3438 199.1867,-978.3438"/>
+<polygon fill="#374151" stroke="#374151" stroke-width="1.4" points="202.6868,-978.3438 199.1867,-968.3438 195.6868,-978.3439 202.6868,-978.3438"/>
+<text text-anchor="middle" x="266.117" y="-1061.9077" font-family="Helvetica Neue" font-size="10.00" fill="#000000">build_small_world(n,k,p,seed)</text>
+</g>
+<!-- PROGRESS -->
+<g id="node7" class="node">
+<title>PROGRESS</title>
+<path fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.5" d="M564.7608,-1628.1094C564.7608,-1628.1094 417.2392,-1628.1094 417.2392,-1628.1094 411.2392,-1628.1094 405.2392,-1622.1094 405.2392,-1616.1094 405.2392,-1616.1094 405.2392,-1592.9061 405.2392,-1592.9061 405.2392,-1586.9061 411.2392,-1580.9061 417.2392,-1580.9061 417.2392,-1580.9061 564.7608,-1580.9061 564.7608,-1580.9061 570.7608,-1580.9061 576.7608,-1586.9061 576.7608,-1592.9061 576.7608,-1592.9061 576.7608,-1616.1094 576.7608,-1616.1094 576.7608,-1622.1094 570.7608,-1628.1094 564.7608,-1628.1094"/>
+<text text-anchor="middle" x="491" y="-1614.4077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">Imprimir barra de progreso</text>
+<text text-anchor="middle" x="491" y="-1601.2077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">[████░░] p=x.xxxx  iter=N/M</text>
+<text text-anchor="middle" x="491" y="-1588.0077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">L=x.xxx  C=x.xxxx</text>
+</g>
+<!-- PROGRESS&#45;&gt;LOOP_ITER -->
+<g id="edge16" class="edge">
+<title>PROGRESS-&gt;LOOP_ITER</title>
+<path fill="none" stroke="#7c3aed" stroke-width="1.4" stroke-dasharray="5,2" d="M405.3446,-1604C353.8718,-1604 298.2725,-1604 298.2725,-1604 298.2725,-1604 298.2725,-1409.2903 298.2725,-1409.2903"/>
+<polygon fill="#7c3aed" stroke="#7c3aed" stroke-width="1.4" points="301.7726,-1409.2903 298.2725,-1399.2903 294.7726,-1409.2903 301.7726,-1409.2903"/>
+<text text-anchor="middle" x="539.9325" y="-1506.1077" font-family="Helvetica Neue" font-size="10.00" fill="#000000">¿más iters?  sí</text>
+</g>
+<!-- COLLECT -->
+<g id="node8" class="node">
+<title>COLLECT</title>
+<path fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.5" d="M565.2367,-1802.7077C565.2367,-1802.7077 478.7633,-1802.7077 478.7633,-1802.7077 472.7633,-1802.7077 466.7633,-1796.7077 466.7633,-1790.7077 466.7633,-1790.7077 466.7633,-1778.7077 466.7633,-1778.7077 466.7633,-1772.7077 472.7633,-1766.7077 478.7633,-1766.7077 478.7633,-1766.7077 565.2367,-1766.7077 565.2367,-1766.7077 571.2367,-1766.7077 577.2367,-1772.7077 577.2367,-1778.7077 577.2367,-1778.7077 577.2367,-1790.7077 577.2367,-1790.7077 577.2367,-1796.7077 571.2367,-1802.7077 565.2367,-1802.7077"/>
+<text text-anchor="middle" x="522" y="-1788.0077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">Acumular resultado</text>
+<text text-anchor="middle" x="522" y="-1774.8077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">{p, iter, L, C}</text>
+</g>
+<!-- COLLECT&#45;&gt;PROGRESS -->
+<g id="edge15" class="edge">
+<title>COLLECT-&gt;PROGRESS</title>
+<path fill="none" stroke="#374151" stroke-width="1.4" d="M521.6311,-1766.4375C521.6311,-1766.4375 521.6311,-1638.2126 521.6311,-1638.2126"/>
+<polygon fill="#374151" stroke="#374151" stroke-width="1.4" points="525.1311,-1638.2126 521.6311,-1628.2126 518.1311,-1638.2127 525.1311,-1638.2126"/>
+<text text-anchor="middle" x="513.6685" y="-1696.9077" font-family="Helvetica Neue" font-size="10.00" fill="#000000">log</text>
+</g>
+<!-- SUMMARIZE -->
+<g id="node17" class="node">
+<title>SUMMARIZE</title>
+<path fill="#ecfdf5" stroke="#059669" stroke-width="1.5" d="M825.0968,-1276.208C825.0968,-1276.208 612.9032,-1276.208 612.9032,-1276.208 606.9032,-1276.208 600.9032,-1270.208 600.9032,-1264.208 600.9032,-1264.208 600.9032,-1200.8075 600.9032,-1200.8075 600.9032,-1194.8075 606.9032,-1188.8075 612.9032,-1188.8075 612.9032,-1188.8075 825.0968,-1188.8075 825.0968,-1188.8075 831.0968,-1188.8075 837.0968,-1194.8075 837.0968,-1200.8075 837.0968,-1200.8075 837.0968,-1264.208 837.0968,-1264.208 837.0968,-1270.208 831.0968,-1276.208 825.0968,-1276.208"/>
+<text text-anchor="middle" x="719" y="-1262.2077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">summarize_results(raw_results)</text>
+<text text-anchor="middle" x="719" y="-1249.0077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">────────────────────────</text>
+<text text-anchor="middle" x="719" y="-1235.8077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">Agrupar por p → media y std de L, C</text>
+<text text-anchor="middle" x="719" y="-1222.6077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">Normalizar: L_norm = L(p)/L(0)</text>
+<text text-anchor="middle" x="719" y="-1209.4077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">            C_norm = C(p)/C(0)</text>
+<text text-anchor="middle" x="719" y="-1196.2077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">Marcar ✓ six_degrees si 4 ≤ L ≤ 8</text>
+</g>
+<!-- RAW_RESULTS&#45;&gt;SUMMARIZE -->
+<g id="edge19" class="edge">
+<title>RAW_RESULTS-&gt;SUMMARIZE</title>
+<path fill="none" stroke="#374151" stroke-width="1.4" d="M507.7414,-1354.0983C507.7414,-1305.7197 507.7414,-1232 507.7414,-1232 507.7414,-1232 590.7099,-1232 590.7099,-1232"/>
+<polygon fill="#374151" stroke="#374151" stroke-width="1.4" points="590.71,-1235.5001 600.7099,-1232 590.7099,-1228.5001 590.71,-1235.5001"/>
+<text text-anchor="middle" x="636.2725" y="-1317.5077" font-family="Helvetica Neue" font-size="10.00" fill="#000000">summarize_results()</text>
+</g>
+<!-- RING_INIT -->
+<g id="node11" class="node">
+<title>RING_INIT</title>
+<path fill="#fef9c3" stroke="#ca8a04" stroke-width="1.5" d="M342.295,-662.1094C342.295,-662.1094 205.705,-662.1094 205.705,-662.1094 199.705,-662.1094 193.705,-656.1094 193.705,-650.1094 193.705,-650.1094 193.705,-626.9061 193.705,-626.9061 193.705,-620.9061 199.705,-614.9061 205.705,-614.9061 205.705,-614.9061 342.295,-614.9061 342.295,-614.9061 348.295,-614.9061 354.295,-620.9061 354.295,-626.9061 354.295,-626.9061 354.295,-650.1094 354.295,-650.1094 354.295,-656.1094 348.295,-662.1094 342.295,-662.1094"/>
+<text text-anchor="middle" x="274" y="-648.4077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">Paso 1: Red anillo regular</text>
+<text text-anchor="middle" x="274" y="-635.2077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">n nodos, cada uno conectado</text>
+<text text-anchor="middle" x="274" y="-622.0077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">a k/2 vecinos de cada lado</text>
+</g>
+<!-- BUILD_SW&#45;&gt;RING_INIT -->
+<g id="edge7" class="edge">
+<title>BUILD_SW-&gt;RING_INIT</title>
+<path fill="none" stroke="#374151" stroke-width="1.4" d="M274,-920.9355C274,-920.9355 274,-672.4759 274,-672.4759"/>
+<polygon fill="#374151" stroke="#374151" stroke-width="1.4" points="277.5001,-672.4759 274,-662.4759 270.5001,-672.4759 277.5001,-672.4759"/>
+<text text-anchor="middle" x="264.5625" y="-770.1077" font-family="Helvetica Neue" font-size="10.00" fill="#000000">Paso 1</text>
+</g>
+<!-- REWIRE -->
+<g id="node12" class="node">
+<title>REWIRE</title>
+<path fill="#fde68a" stroke="#b45309" stroke-width="1.5" d="M263.8772,-401.3962C263.8772,-401.3962 103.3695,-336.4038 103.3695,-336.4038 97.8081,-334.1519 97.8081,-329.6481 103.3695,-327.3962 103.3695,-327.3962 263.8772,-262.4038 263.8772,-262.4038 269.4386,-260.1519 280.5614,-260.1519 286.1228,-262.4038 286.1228,-262.4038 446.6305,-327.3962 446.6305,-327.3962 452.1919,-329.6481 452.1919,-334.1519 446.6305,-336.4038 446.6305,-336.4038 286.1228,-401.3962 286.1228,-401.3962 280.5614,-403.6481 269.4386,-403.6481 263.8772,-401.3962"/>
+<text text-anchor="middle" x="275" y="-355" font-family="Helvetica Neue" font-size="11.00" fill="#000000">Paso 2: Rewiring</text>
+<text text-anchor="middle" x="275" y="-341.8" font-family="Helvetica Neue" font-size="11.00" fill="#000000">Para cada enlace del anillo:</text>
+<text text-anchor="middle" x="275" y="-328.6" font-family="Helvetica Neue" font-size="11.00" fill="#000000">¿aleatorio &lt; p?</text>
+<text text-anchor="middle" x="275" y="-315.4" font-family="Helvetica Neue" font-size="11.00" fill="#000000">→ Sí: reconectar a nodo aleatorio</text>
+<text text-anchor="middle" x="275" y="-302.2" font-family="Helvetica Neue" font-size="11.00" fill="#000000">→ No: mantener enlace original</text>
+</g>
+<!-- RING_INIT&#45;&gt;REWIRE -->
+<g id="edge8" class="edge">
+<title>RING_INIT-&gt;REWIRE</title>
+<path fill="none" stroke="#374151" stroke-width="1.4" d="M274,-614.7039C274,-614.7039 274,-415.6 274,-415.6"/>
+<polygon fill="#374151" stroke="#374151" stroke-width="1.4" points="277.5001,-415.6 274,-405.6 270.5001,-415.6 277.5001,-415.6"/>
+<text text-anchor="middle" x="290.5625" y="-494.1039" font-family="Helvetica Neue" font-size="10.00" fill="#000000">Paso 2</text>
+</g>
+<!-- GRAPH_OUT -->
+<g id="node13" class="node">
+<title>GRAPH_OUT</title>
+<path fill="#fde68a" stroke="#92400e" stroke-width="1.5" d="M407.2314,-124.9591C407.2314,-130.9686 370.8222,-135.85 326,-135.85 281.1778,-135.85 244.7686,-130.9686 244.7686,-124.9591 244.7686,-124.9591 244.7686,-26.9409 244.7686,-26.9409 244.7686,-20.9314 281.1778,-16.05 326,-16.05 370.8222,-16.05 407.2314,-20.9314 407.2314,-26.9409 407.2314,-26.9409 407.2314,-124.9591 407.2314,-124.9591"/>
+<path fill="none" stroke="#92400e" stroke-width="1.5" d="M407.2314,-124.9591C407.2314,-118.9497 370.8222,-114.0682 326,-114.0682 281.1778,-114.0682 244.7686,-118.9497 244.7686,-124.9591"/>
+<text text-anchor="middle" x="326" y="-105.65" font-family="Helvetica Neue" font-size="11.00" fill="#000000">Retorna grafo G</text>
+<text text-anchor="middle" x="326" y="-92.45" font-family="Helvetica Neue" font-size="11.00" fill="#000000">(objeto nx.Graph)</text>
+<text text-anchor="middle" x="326" y="-79.25" font-family="Helvetica Neue" font-size="11.00" fill="#000000">────────────────</text>
+<text text-anchor="middle" x="326" y="-66.05" font-family="Helvetica Neue" font-size="11.00" fill="#000000">p=0  → red regular</text>
+<text text-anchor="middle" x="326" y="-52.85" font-family="Helvetica Neue" font-size="11.00" fill="#000000">0&lt;p&lt;1 → small-world</text>
+<text text-anchor="middle" x="326" y="-39.65" font-family="Helvetica Neue" font-size="11.00" fill="#000000">p=1  → red aleatoria</text>
+</g>
+<!-- REWIRE&#45;&gt;GRAPH_OUT -->
+<g id="edge9" class="edge">
+<title>REWIRE-&gt;GRAPH_OUT</title>
+<path fill="none" stroke="#374151" stroke-width="1.4" d="M326,-278.2445C326,-278.2445 326,-146.2584 326,-146.2584"/>
+<polygon fill="#374151" stroke="#374151" stroke-width="1.4" points="329.5001,-146.2584 326,-136.2584 322.5001,-146.2585 329.5001,-146.2584"/>
+<text text-anchor="middle" x="321.1155" y="-193.9" font-family="Helvetica Neue" font-size="10.00" fill="#000000">retorna G</text>
+</g>
+<!-- COMPUTE -->
+<g id="node14" class="node">
+<title>COMPUTE</title>
+<path fill="#ecfdf5" stroke="#059669" stroke-width="1.5" d="M1101.0968,-1256.1094C1101.0968,-1256.1094 888.9032,-1256.1094 888.9032,-1256.1094 882.9032,-1256.1094 876.9032,-1250.1094 876.9032,-1244.1094 876.9032,-1244.1094 876.9032,-1220.9061 876.9032,-1220.9061 876.9032,-1214.9061 882.9032,-1208.9061 888.9032,-1208.9061 888.9032,-1208.9061 1101.0968,-1208.9061 1101.0968,-1208.9061 1107.0968,-1208.9061 1113.0968,-1214.9061 1113.0968,-1220.9061 1113.0968,-1220.9061 1113.0968,-1244.1094 1113.0968,-1244.1094 1113.0968,-1250.1094 1107.0968,-1256.1094 1101.0968,-1256.1094"/>
+<text text-anchor="middle" x="995" y="-1242.4077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">compute_metrics(G)</text>
+<text text-anchor="middle" x="995" y="-1229.2077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">────────────────────────</text>
+<text text-anchor="middle" x="995" y="-1216.0077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">Llama a L y C por separado</text>
+</g>
+<!-- GRAPH_OUT&#45;&gt;COMPUTE -->
+<g id="edge10" class="edge">
+<title>GRAPH_OUT-&gt;COMPUTE</title>
+<path fill="none" stroke="#374151" stroke-width="1.4" d="M407.6195,-75C445.7213,-75 482.809,-75 482.809,-75 482.809,-75 482.809,-1161 482.809,-1161 482.809,-1161 955.6505,-1161 955.6505,-1161 955.6505,-1161 955.6505,-1198.6967 955.6505,-1198.6967"/>
+<polygon fill="#374151" stroke="#374151" stroke-width="1.4" points="952.1506,-1198.6967 955.6505,-1208.6967 959.1506,-1198.6967 952.1506,-1198.6967"/>
+<text text-anchor="middle" x="570.2775" y="-635.5077" font-family="Helvetica Neue" font-size="10.00" fill="#000000">compute_metrics(G)</text>
+</g>
+<!-- COMP_L -->
+<g id="node15" class="node">
+<title>COMP_L</title>
+<path fill="#a7f3d0" stroke="#047857" stroke-width="1.5" d="M1060.7458,-1027.9437C1060.7458,-1027.9437 847.0606,-948.8722 847.0606,-948.8722 841.4335,-946.79 841.4335,-942.6255 847.0606,-940.5433 847.0606,-940.5433 1060.7458,-861.4718 1060.7458,-861.4718 1066.3729,-859.3895 1077.6271,-859.3895 1083.2542,-861.4718 1083.2542,-861.4718 1296.9394,-940.5433 1296.9394,-940.5433 1302.5665,-942.6255 1302.5665,-946.79 1296.9394,-948.8722 1296.9394,-948.8722 1083.2542,-1027.9437 1083.2542,-1027.9437 1077.6271,-1030.026 1066.3729,-1030.026 1060.7458,-1027.9437"/>
+<text text-anchor="middle" x="1072" y="-974.4077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">compute_avg_path_length(G)</text>
+<text text-anchor="middle" x="1072" y="-961.2077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">────────────────────────</text>
+<text text-anchor="middle" x="1072" y="-948.0077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">¿Grafo conexo?</text>
+<text text-anchor="middle" x="1072" y="-934.8077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">→ Sí: nx.average_shortest_path_length(G)</text>
+<text text-anchor="middle" x="1072" y="-921.6077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">→ No: usar componente gigante (fallback)</text>
+<text text-anchor="middle" x="1072" y="-908.4077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">Retorna  L  (distancia promedio)</text>
+</g>
+<!-- COMPUTE&#45;&gt;COMP_L -->
+<g id="edge11" class="edge">
+<title>COMPUTE-&gt;COMP_L</title>
+<path fill="none" stroke="#374151" stroke-width="1.4" d="M1034.3495,-1208.4651C1034.3495,-1208.4651 1034.3495,-1028.3651 1034.3495,-1028.3651"/>
+<polygon fill="#374151" stroke="#374151" stroke-width="1.4" points="1037.8496,-1028.365 1034.3495,-1018.3651 1030.8496,-1028.3651 1037.8496,-1028.365"/>
+<text text-anchor="middle" x="993.7265" y="-1112.9077" font-family="Helvetica Neue" font-size="10.00" fill="#000000">calcula L</text>
+</g>
+<!-- COMP_C -->
+<g id="node16" class="node">
+<title>COMP_C</title>
+<path fill="#ecfdf5" stroke="#059669" stroke-width="1.5" d="M1572.0968,-975.0081C1572.0968,-975.0081 1359.9032,-975.0081 1359.9032,-975.0081 1353.9032,-975.0081 1347.9032,-969.0081 1347.9032,-963.0081 1347.9032,-963.0081 1347.9032,-926.4074 1347.9032,-926.4074 1347.9032,-920.4074 1353.9032,-914.4074 1359.9032,-914.4074 1359.9032,-914.4074 1572.0968,-914.4074 1572.0968,-914.4074 1578.0968,-914.4074 1584.0968,-920.4074 1584.0968,-926.4074 1584.0968,-926.4074 1584.0968,-963.0081 1584.0968,-963.0081 1584.0968,-969.0081 1578.0968,-975.0081 1572.0968,-975.0081"/>
+<text text-anchor="middle" x="1466" y="-961.2077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">compute_clustering(G)</text>
+<text text-anchor="middle" x="1466" y="-948.0077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">────────────────────────</text>
+<text text-anchor="middle" x="1466" y="-934.8077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">nx.average_clustering(G)</text>
+<text text-anchor="middle" x="1466" y="-921.6077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">Retorna  C  (coef. clustering)</text>
+</g>
+<!-- COMPUTE&#45;&gt;COMP_C -->
+<g id="edge12" class="edge">
+<title>COMPUTE-&gt;COMP_C</title>
+<path fill="none" stroke="#374151" stroke-width="1.4" d="M1113.2358,-1232C1241.0307,-1232 1426.6505,-1232 1426.6505,-1232 1426.6505,-1232 1426.6505,-985.1811 1426.6505,-985.1811"/>
+<polygon fill="#374151" stroke="#374151" stroke-width="1.4" points="1430.1506,-985.181 1426.6505,-975.1811 1423.1506,-985.1811 1430.1506,-985.181"/>
+<text text-anchor="middle" x="1113.5565" y="-1112.9077" font-family="Helvetica Neue" font-size="10.00" fill="#000000">calcula C</text>
+</g>
+<!-- COMP_L&#45;&gt;COLLECT -->
+<g id="edge13" class="edge">
+<title>COMP_L-&gt;COLLECT</title>
+<path fill="none" stroke="#374151" stroke-width="1.4" d="M857,-952.6879C857,-1037.9653 857,-1778 857,-1778 857,-1778 587.3184,-1778 587.3184,-1778"/>
+<polygon fill="#374151" stroke="#374151" stroke-width="1.4" points="587.3185,-1774.5001 577.3184,-1778 587.3184,-1781.5001 587.3185,-1774.5001"/>
+<text text-anchor="middle" x="1197.7795" y="-1467.1077" font-family="Helvetica Neue" font-size="10.00" fill="#000000">L</text>
+</g>
+<!-- COMP_C&#45;&gt;COLLECT -->
+<g id="edge14" class="edge">
+<title>COMP_C-&gt;COLLECT</title>
+<path fill="none" stroke="#374151" stroke-width="1.4" d="M1505.3495,-975.0414C1505.3495,-1126.1037 1505.3495,-1790 1505.3495,-1790 1505.3495,-1790 587.3309,-1790 587.3309,-1790"/>
+<polygon fill="#374151" stroke="#374151" stroke-width="1.4" points="587.331,-1786.5001 577.3309,-1790 587.3309,-1793.5001 587.331,-1786.5001"/>
+<text text-anchor="middle" x="1385.6095" y="-1467.1077" font-family="Helvetica Neue" font-size="10.00" fill="#000000">C</text>
+</g>
+<!-- DF_RESULT -->
+<g id="node18" class="node">
+<title>DF_RESULT</title>
+<path fill="#a7f3d0" stroke="#065f46" stroke-width="1.5" d="M795.4337,-971.6681C795.4337,-974.9739 751.7624,-977.6593 698,-977.6593 644.2376,-977.6593 600.5663,-974.9739 600.5663,-971.6681 600.5663,-971.6681 600.5663,-917.7474 600.5663,-917.7474 600.5663,-914.4415 644.2376,-911.7562 698,-911.7562 751.7624,-911.7562 795.4337,-914.4415 795.4337,-917.7474 795.4337,-917.7474 795.4337,-971.6681 795.4337,-971.6681"/>
+<path fill="none" stroke="#065f46" stroke-width="1.5" d="M795.4337,-971.6681C795.4337,-968.3623 751.7624,-965.6769 698,-965.6769 644.2376,-965.6769 600.5663,-968.3623 600.5663,-971.6681"/>
+<text text-anchor="middle" x="698" y="-954.6077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">DataFrame con columnas:</text>
+<text text-anchor="middle" x="698" y="-941.4077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">p | L_mean | L_std | C_mean | C_std</text>
+<text text-anchor="middle" x="698" y="-928.2077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">| L_norm | C_norm | six_degrees</text>
+</g>
+<!-- SUMMARIZE&#45;&gt;DF_RESULT -->
+<g id="edge20" class="edge">
+<title>SUMMARIZE-&gt;DF_RESULT</title>
+<path fill="none" stroke="#374151" stroke-width="1.4" d="M698.2092,-1188.7971C698.2092,-1188.7971 698.2092,-987.6147 698.2092,-987.6147"/>
+<polygon fill="#374151" stroke="#374151" stroke-width="1.4" points="701.7093,-987.6146 698.2092,-977.6147 694.7093,-987.6147 701.7093,-987.6146"/>
+</g>
+<!-- PRINT_TABLE -->
+<g id="node19" class="node">
+<title>PRINT_TABLE</title>
+<path fill="#e0f2fe" stroke="#0891b2" stroke-width="1.5" d="M765.6787,-791.1077C765.6787,-791.1077 638.3213,-791.1077 638.3213,-791.1077 632.3213,-791.1077 626.3213,-785.1077 626.3213,-779.1077 626.3213,-779.1077 626.3213,-767.1077 626.3213,-767.1077 626.3213,-761.1077 632.3213,-755.1077 638.3213,-755.1077 638.3213,-755.1077 765.6787,-755.1077 765.6787,-755.1077 771.6787,-755.1077 777.6787,-761.1077 777.6787,-767.1077 777.6787,-767.1077 777.6787,-779.1077 777.6787,-779.1077 777.6787,-785.1077 771.6787,-791.1077 765.6787,-791.1077"/>
+<text text-anchor="middle" x="702" y="-776.4077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">Imprimir tabla de resultados</text>
+<text text-anchor="middle" x="702" y="-763.2077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">en consola (df.to_string)</text>
+</g>
+<!-- DF_RESULT&#45;&gt;PRINT_TABLE -->
+<g id="edge21" class="edge">
+<title>DF_RESULT-&gt;PRINT_TABLE</title>
+<path fill="none" stroke="#374151" stroke-width="1.4" d="M702,-911.6215C702,-911.6215 702,-801.3095 702,-801.3095"/>
+<polygon fill="#374151" stroke="#374151" stroke-width="1.4" points="705.5001,-801.3094 702,-791.3095 698.5001,-801.3095 705.5001,-801.3094"/>
+</g>
+<!-- SAVE_CSV -->
+<g id="node20" class="node">
+<title>SAVE_CSV</title>
+<polygon fill="#bae6fd" stroke="#0369a1" stroke-width="1.5" points="941.6887,-791.1077 818.3113,-791.1077 818.3113,-755.1077 947.6887,-755.1077 947.6887,-785.1077 941.6887,-791.1077"/>
+<polyline fill="none" stroke="#0369a1" stroke-width="1.5" points="941.6887,-791.1077 941.6887,-785.1077 "/>
+<polyline fill="none" stroke="#0369a1" stroke-width="1.5" points="947.6887,-785.1077 941.6887,-785.1077 "/>
+<text text-anchor="middle" x="883" y="-776.4077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">Guardar resultados.csv</text>
+<text text-anchor="middle" x="883" y="-763.2077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">(11 filas × 8 columnas)</text>
+</g>
+<!-- DF_RESULT&#45;&gt;SAVE_CSV -->
+<g id="edge22" class="edge">
+<title>DF_RESULT-&gt;SAVE_CSV</title>
+<path fill="none" stroke="#374151" stroke-width="1.4" d="M783.7151,-913.6128C783.7151,-864.1313 783.7151,-773 783.7151,-773 783.7151,-773 808.1615,-773 808.1615,-773"/>
+<polygon fill="#374151" stroke="#374151" stroke-width="1.4" points="808.1615,-776.5001 818.1615,-773 808.1615,-769.5001 808.1615,-776.5001"/>
+</g>
+<!-- PLOT_ALL -->
+<g id="node21" class="node">
+<title>PLOT_ALL</title>
+<path fill="#e0f2fe" stroke="#0891b2" stroke-width="1.5" d="M1078.2946,-791.1077C1078.2946,-791.1077 999.7054,-791.1077 999.7054,-791.1077 993.7054,-791.1077 987.7054,-785.1077 987.7054,-779.1077 987.7054,-779.1077 987.7054,-767.1077 987.7054,-767.1077 987.7054,-761.1077 993.7054,-755.1077 999.7054,-755.1077 999.7054,-755.1077 1078.2946,-755.1077 1078.2946,-755.1077 1084.2946,-755.1077 1090.2946,-761.1077 1090.2946,-767.1077 1090.2946,-767.1077 1090.2946,-779.1077 1090.2946,-779.1077 1090.2946,-785.1077 1084.2946,-791.1077 1078.2946,-791.1077"/>
+<text text-anchor="middle" x="1039" y="-776.4077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">plot_all(df)</text>
+<text text-anchor="middle" x="1039" y="-763.2077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">→ visualization.py</text>
+</g>
+<!-- DF_RESULT&#45;&gt;PLOT_ALL -->
+<g id="edge23" class="edge">
+<title>DF_RESULT-&gt;PLOT_ALL</title>
+<path fill="none" stroke="#374151" stroke-width="1.4" d="M789.591,-913.9358C789.591,-878.1731 789.591,-824 789.591,-824 789.591,-824 1039,-824 1039,-824 1039,-824 1039,-801.1937 1039,-801.1937"/>
+<polygon fill="#374151" stroke="#374151" stroke-width="1.4" points="1042.5001,-801.1937 1039,-791.1937 1035.5001,-801.1938 1042.5001,-801.1937"/>
+</g>
+<!-- FIG1 -->
+<g id="node22" class="node">
+<title>FIG1</title>
+<polygon fill="#fdf2f8" stroke="#db2777" stroke-width="1.5" points="886.0968,-682.208 655.9032,-682.208 655.9032,-594.8075 892.0968,-594.8075 892.0968,-676.208 886.0968,-682.208"/>
+<polyline fill="none" stroke="#db2777" stroke-width="1.5" points="886.0968,-682.208 886.0968,-676.208 "/>
+<polyline fill="none" stroke="#db2777" stroke-width="1.5" points="892.0968,-676.208 886.0968,-676.208 "/>
+<text text-anchor="middle" x="774" y="-668.2077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">Fig 1: plot_normalized(df)</text>
+<text text-anchor="middle" x="774" y="-655.0077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">────────────────────────</text>
+<text text-anchor="middle" x="774" y="-641.8077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">L(p)/L(0) y C(p)/C(0) vs p</text>
+<text text-anchor="middle" x="774" y="-628.6077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">(réplica Fig.2 Watts &amp; Strogatz 1998)</text>
+<text text-anchor="middle" x="774" y="-615.4077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">Eje x logarítmico</text>
+<text text-anchor="middle" x="774" y="-602.2077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">→ fig1_normalized.png</text>
+</g>
+<!-- PLOT_ALL&#45;&gt;FIG1 -->
+<g id="edge24" class="edge">
+<title>PLOT_ALL-&gt;FIG1</title>
+<path fill="none" stroke="#374151" stroke-width="1.4" d="M1021.8676,-754.883C1021.8676,-739.8566 1021.8676,-721 1021.8676,-721 1021.8676,-721 855.1021,-721 855.1021,-721 855.1021,-721 855.1021,-692.1694 855.1021,-692.1694"/>
+<polygon fill="#374151" stroke="#374151" stroke-width="1.4" points="858.6022,-692.1694 855.1021,-682.1694 851.6022,-692.1694 858.6022,-692.1694"/>
+</g>
+<!-- FIG2 -->
+<g id="node23" class="node">
+<title>FIG2</title>
+<polygon fill="#fdf2f8" stroke="#db2777" stroke-width="1.5" points="1162.0968,-675.5077 931.9032,-675.5077 931.9032,-601.5077 1168.0968,-601.5077 1168.0968,-669.5077 1162.0968,-675.5077"/>
+<polyline fill="none" stroke="#db2777" stroke-width="1.5" points="1162.0968,-675.5077 1162.0968,-669.5077 "/>
+<polyline fill="none" stroke="#db2777" stroke-width="1.5" points="1168.0968,-669.5077 1162.0968,-669.5077 "/>
+<text text-anchor="middle" x="1050" y="-661.6077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">Fig 2: plot_path_length(df)</text>
+<text text-anchor="middle" x="1050" y="-648.4077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">────────────────────────</text>
+<text text-anchor="middle" x="1050" y="-635.2077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">L(p) absoluta con banda ±σ</text>
+<text text-anchor="middle" x="1050" y="-622.0077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">Línea roja en L=6 (seis grados)</text>
+<text text-anchor="middle" x="1050" y="-608.8077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">→ fig2_path_length.png</text>
+</g>
+<!-- PLOT_ALL&#45;&gt;FIG2 -->
+<g id="edge25" class="edge">
+<title>PLOT_ALL-&gt;FIG2</title>
+<path fill="none" stroke="#374151" stroke-width="1.4" d="M1056.1324,-754.955C1056.1324,-754.955 1056.1324,-685.6413 1056.1324,-685.6413"/>
+<polygon fill="#374151" stroke="#374151" stroke-width="1.4" points="1059.6325,-685.6413 1056.1324,-675.6413 1052.6325,-685.6413 1059.6325,-685.6413"/>
+</g>
+<!-- FIG3 -->
+<g id="node24" class="node">
+<title>FIG3</title>
+<polygon fill="#fdf2f8" stroke="#db2777" stroke-width="1.5" points="1438.0968,-675.5077 1207.9032,-675.5077 1207.9032,-601.5077 1444.0968,-601.5077 1444.0968,-669.5077 1438.0968,-675.5077"/>
+<polyline fill="none" stroke="#db2777" stroke-width="1.5" points="1438.0968,-675.5077 1438.0968,-669.5077 "/>
+<polyline fill="none" stroke="#db2777" stroke-width="1.5" points="1444.0968,-669.5077 1438.0968,-669.5077 "/>
+<text text-anchor="middle" x="1326" y="-661.6077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">Fig 3: plot_clustering(df)</text>
+<text text-anchor="middle" x="1326" y="-648.4077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">────────────────────────</text>
+<text text-anchor="middle" x="1326" y="-635.2077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">C(p) absoluta con banda ±σ</text>
+<text text-anchor="middle" x="1326" y="-622.0077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">Línea referencia C≈k/n (aleatorio)</text>
+<text text-anchor="middle" x="1326" y="-608.8077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">→ fig3_clustering.png</text>
+</g>
+<!-- PLOT_ALL&#45;&gt;FIG3 -->
+<g id="edge26" class="edge">
+<title>PLOT_ALL-&gt;FIG3</title>
+<path fill="none" stroke="#374151" stroke-width="1.4" d="M1090.3514,-764C1155.0884,-764 1258.0242,-764 1258.0242,-764 1258.0242,-764 1258.0242,-685.8198 1258.0242,-685.8198"/>
+<polygon fill="#374151" stroke="#374151" stroke-width="1.4" points="1261.5243,-685.8197 1258.0242,-675.8198 1254.5243,-685.8198 1261.5243,-685.8197"/>
+</g>
+<!-- FIG4 -->
+<g id="node25" class="node">
+<title>FIG4</title>
+<polygon fill="#fdf2f8" stroke="#db2777" stroke-width="1.5" points="1714.0968,-682.208 1483.9032,-682.208 1483.9032,-594.8075 1720.0968,-594.8075 1720.0968,-676.208 1714.0968,-682.208"/>
+<polyline fill="none" stroke="#db2777" stroke-width="1.5" points="1714.0968,-682.208 1714.0968,-676.208 "/>
+<polyline fill="none" stroke="#db2777" stroke-width="1.5" points="1720.0968,-676.208 1714.0968,-676.208 "/>
+<text text-anchor="middle" x="1602" y="-668.2077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">Fig 4: plot_dashboard(df)</text>
+<text text-anchor="middle" x="1602" y="-655.0077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">────────────────────────</text>
+<text text-anchor="middle" x="1602" y="-641.8077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">Panel 2×2:</text>
+<text text-anchor="middle" x="1602" y="-628.6077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">L norm | L abs</text>
+<text text-anchor="middle" x="1602" y="-615.4077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">C abs  | Tabla zona small-world</text>
+<text text-anchor="middle" x="1602" y="-602.2077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">→ fig4_dashboard.png</text>
+</g>
+<!-- PLOT_ALL&#45;&gt;FIG4 -->
+<g id="edge27" class="edge">
+<title>PLOT_ALL-&gt;FIG4</title>
+<path fill="none" stroke="#374151" stroke-width="1.4" d="M1090.5728,-773C1217.3547,-773 1534,-773 1534,-773 1534,-773 1534,-692.1735 1534,-692.1735"/>
+<polygon fill="#374151" stroke="#374151" stroke-width="1.4" points="1537.5001,-692.1735 1534,-682.1735 1530.5001,-692.1736 1537.5001,-692.1735"/>
+</g>
+<!-- FIG5 -->
+<g id="node26" class="node">
+<title>FIG5</title>
+<polygon fill="#fdf2f8" stroke="#db2777" stroke-width="1.5" points="1990.0968,-688.9085 1759.9032,-688.9085 1759.9032,-588.1069 1996.0968,-588.1069 1996.0968,-682.9085 1990.0968,-688.9085"/>
+<polyline fill="none" stroke="#db2777" stroke-width="1.5" points="1990.0968,-688.9085 1990.0968,-682.9085 "/>
+<polyline fill="none" stroke="#db2777" stroke-width="1.5" points="1996.0968,-682.9085 1990.0968,-682.9085 "/>
+<text text-anchor="middle" x="1878" y="-674.8077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">Fig 5: plot_network_examples(n=50, k=4)</text>
+<text text-anchor="middle" x="1878" y="-661.6077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">────────────────────────</text>
+<text text-anchor="middle" x="1878" y="-648.4077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">3 topologías con layout circular:</text>
+<text text-anchor="middle" x="1878" y="-635.2077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">p=0   → anillo regular (azul)</text>
+<text text-anchor="middle" x="1878" y="-622.0077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">p=0.1 → small-world (verde) ← óptimo</text>
+<text text-anchor="middle" x="1878" y="-608.8077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">p=1.0 → red aleatoria (rojo)</text>
+<text text-anchor="middle" x="1878" y="-595.6077" font-family="Helvetica Neue" font-size="11.00" fill="#000000">→ fig5_networks.png</text>
+</g>
+<!-- PLOT_ALL&#45;&gt;FIG5 -->
+<g id="edge28" class="edge">
+<title>PLOT_ALL-&gt;FIG5</title>
+<path fill="none" stroke="#374151" stroke-width="1.4" d="M1090.5347,-782C1273.0754,-782 1878,-782 1878,-782 1878,-782 1878,-699.0977 1878,-699.0977"/>
+<polygon fill="#374151" stroke="#374151" stroke-width="1.4" points="1881.5001,-699.0977 1878,-689.0977 1874.5001,-699.0978 1881.5001,-699.0977"/>
+</g>
+<!-- END -->
+<g id="node27" class="node">
+<title>END</title>
+<ellipse fill="#111827" stroke="#000000" stroke-width="1.5" cx="1326" cy="-497.1039" rx="137.8215" ry="36.4089"/>
+<text text-anchor="middle" x="1326" y="-507.9039" font-family="Helvetica Neue" font-size="12.00" fill="#ffffff">■  FIN</text>
+<text text-anchor="middle" x="1326" y="-493.5039" font-family="Helvetica Neue" font-size="12.00" fill="#ffffff">Simulación completada</text>
+<text text-anchor="middle" x="1326" y="-479.1039" font-family="Helvetica Neue" font-size="12.00" fill="#ffffff">Archivos: resultados.csv + 5 PNG</text>
+</g>
+<!-- FIG1&#45;&gt;END -->
+<g id="edge29" class="edge">
+<title>FIG1-&gt;END</title>
+<path fill="none" stroke="#374151" stroke-width="1.4" d="M774,-594.8961C774,-553.3178 774,-497 774,-497 774,-497 1177.7754,-497 1177.7754,-497"/>
+<polygon fill="#374151" stroke="#374151" stroke-width="1.4" points="1177.7755,-500.5001 1187.7754,-497 1177.7754,-493.5001 1177.7755,-500.5001"/>
+</g>
+<!-- FIG2&#45;&gt;END -->
+<g id="edge30" class="edge">
+<title>FIG2-&gt;END</title>
+<path fill="none" stroke="#374151" stroke-width="1.4" d="M1168.0663,-638C1185.6523,-638 1198.0204,-638 1198.0204,-638 1198.0204,-638 1198.0204,-520.6136 1198.0204,-520.6136"/>
+<polygon fill="#374151" stroke="#374151" stroke-width="1.4" points="1201.5205,-520.6135 1198.0204,-510.6136 1194.5205,-520.6136 1201.5205,-520.6135"/>
+</g>
+<!-- FIG3&#45;&gt;END -->
+<g id="edge31" class="edge">
+<title>FIG3-&gt;END</title>
+<path fill="none" stroke="#374151" stroke-width="1.4" d="M1326,-601.3555C1326,-601.3555 1326,-543.5189 1326,-543.5189"/>
+<polygon fill="#374151" stroke="#374151" stroke-width="1.4" points="1329.5001,-543.5188 1326,-533.5189 1322.5001,-543.5189 1329.5001,-543.5188"/>
+</g>
+<!-- FIG4&#45;&gt;END -->
+<g id="edge32" class="edge">
+<title>FIG4-&gt;END</title>
+<path fill="none" stroke="#374151" stroke-width="1.4" d="M1483.9337,-638C1466.3477,-638 1453.9796,-638 1453.9796,-638 1453.9796,-638 1453.9796,-520.6136 1453.9796,-520.6136"/>
+<polygon fill="#374151" stroke="#374151" stroke-width="1.4" points="1457.4797,-520.6135 1453.9796,-510.6136 1450.4797,-520.6136 1457.4797,-520.6135"/>
+</g>
+<!-- FIG5&#45;&gt;END -->
+<g id="edge33" class="edge">
+<title>FIG5-&gt;END</title>
+<path fill="none" stroke="#374151" stroke-width="1.4" d="M1878,-588.219C1878,-547.5456 1878,-497 1878,-497 1878,-497 1474.2246,-497 1474.2246,-497"/>
+<polygon fill="#374151" stroke="#374151" stroke-width="1.4" points="1474.2246,-493.5001 1464.2246,-497 1474.2245,-500.5001 1474.2246,-493.5001"/>
+</g>
+</g>
+</svg>

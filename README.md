@@ -22,6 +22,12 @@ Para este proyecto, se utilizaron las siguientes librerías:
 - **Pandas**
 
 
+## Diagrama de flujo
+
+Este diagrama explica el flujo del programa diviendo la ejecución en diferentes módulos que en conjunto permiten la simulación, visualización y comprobación del programa.
+
+![Diagrama de flujo](/diagrama de flujo/graph.svg)
+
 ## Autores
 
 - [Martín Ariza (2251516)](https://www.github.com/mzc07)
