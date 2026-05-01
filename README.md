@@ -32,4 +32,5 @@ Este diagrama explica el flujo del programa diviendo la ejecución en diferentes
 
 - [Martín Ariza (2251516)](https://www.github.com/mzc07)
 - [Elías Arrieta (2250952)](https://www.github.com/arrietaelias70-stack)
+- [Gabriela Rodriguez (22551510)](https://www.github.com/gabrod)
 
